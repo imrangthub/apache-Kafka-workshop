@@ -49,6 +49,6 @@ public class SmSProducer {
     public static void main(String[] args) {
 
     	SmSProducer messageProducer = new SmSProducer(propsMap());
-        messageProducer.publishMessageSync("key5", "value5");
+        messageProducer.publishMessageSync("key1", "value1");
     }
 }
