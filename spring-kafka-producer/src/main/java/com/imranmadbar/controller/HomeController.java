@@ -19,7 +19,7 @@ public class HomeController {
 
 	@GetMapping("/send")
 	public String sendMessage(@RequestParam("msg") String msg) {
-		messageProducer.sendMessage("test-topic1", msg);
+		messageProducer.sendMessage("topic_sms_notification", msg);
 		return "Message sent: " + msg;
 	}
 

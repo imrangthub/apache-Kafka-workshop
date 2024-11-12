@@ -12,7 +12,7 @@ import org.springframework.kafka.core.ConsumerFactory;
 import org.springframework.kafka.core.DefaultKafkaConsumerFactory;
 
 @Configuration
-public class KafkaConsumerConfig {
+public class SimpleListenerConfig {
 
 	@Bean
 	public ConsumerFactory<String, String> consumerFactory() {
